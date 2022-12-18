@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+
 import React, { memo, useState } from 'react'
 import Indicator from '../../base-ui/indicator'
 import { DemoWrapper } from './style'
@@ -35,6 +35,6 @@ const Demo = memo((props) => {
   )
 })
 
-Demo.propTypes = {}
+
 
 export default Demo
